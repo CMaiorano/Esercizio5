@@ -25,7 +25,8 @@ console.log('divide ' + divide(6, 2));
  * converti la seguente funzione utilizza la sintassi arrow
  */
 
-const displayUser = (item: { firstName: string; surname: string; age: number; location: string; }) => `${item.firstName} ${item.surname} (${item.age}) ${item.location}`;
+const displayUser = (item: { firstName: string; surname: string; age: number; location: string; }) => 
+`${item.firstName} ${item.surname} (${item.age}) ${item.location}`;
 
 //function displayUser(item)
 //{
